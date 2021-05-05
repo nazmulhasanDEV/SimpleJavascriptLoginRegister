@@ -62,8 +62,9 @@ body {
 .login-register-form .button_submit {
     width: 120px;
     padding: 2px 0px 2px 0px;
-    border: 2px solid #332e47;
     margin-top: 10px;
+    border: none;
+    background: white;
     outline: none;
     border-radius: 50px;
     transition: width 1s;
@@ -74,6 +75,7 @@ body {
     background-color: #2e652a;
     color: white;
     width: 150px;
+    border: 1px solid white;
 }
 
 .already-have-sec {
