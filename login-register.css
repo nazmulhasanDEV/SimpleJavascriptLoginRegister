@@ -1,0 +1,89 @@
+body {
+    /* background: radial-gradient(circle, rgba(0,36,1,1) 2%, rgba(0,212,255,1) 98%, rgba(42,101,78,1) 100%); */
+    /* background-color: #001b24; */
+    background: url('./pixel.jpg');
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title {
+    width: 100%;
+    height:auto;
+    margin-top: 6%;
+    color: white;
+}
+.title h2 {
+    padding-bottom: 10px;
+}
+
+.login-register-sec {
+    width: 100%;
+    height: auto;
+    top: 15px;
+    background: #2e652a;
+}
+
+.login-register-title h3{
+    padding-top: 8px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #2a654e;
+    border-bottom: 1px solid white;
+}
+
+.login-register-form form{
+    display: block;
+    text-align: center;
+
+}
+
+.login-register-form input[type='text'] {
+    width: 180px;
+    height: 35px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+    border-radius: 50px;
+    transition: width 1s;
+    background-color: none;
+}
+
+
+.login-register-form input[type='text']:focus {
+    width: 220px;
+    background: #2e652a;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+.login-register-form .button_submit {
+    width: 120px;
+    padding: 2px 0px 2px 0px;
+    border: 2px solid #332e47;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 50px;
+    transition: width 1s;
+    font-weight: 500;
+}
+
+.login-register-form .button_submit:hover{
+    background-color: #2e652a;
+    color: white;
+    width: 150px;
+}
+
+.already-have-sec {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+}
+.already-have-sec a {
+    color: white;
+    text-decoration: underline;
+}
